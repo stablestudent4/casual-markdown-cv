@@ -12,6 +12,16 @@ then may print it to PDF file to send to recruiter, or share by url. (for github
 
 ps: recommended to ask ChatGPT for a refinement before published your resume. AI will refine both content and layout in markdown format.
 
+graph TD;
+    subgraph Core Network
+        R1[Router A] --- R2[Router B];
+    end
+    subgraph LANs
+        R1 --- L1[LAN A: 192.168.1.0/24];
+        R2 --- L2[LAN B: 192.168.2.0/24];
+    end
+
+    
 ## Themes
 
 The following themes are available now
